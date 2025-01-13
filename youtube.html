@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube Clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+        <style>
+            p {
+                font-family: 'Roboto', sans-serif;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .thumbnail {
+                width:300px;
+                display: block;
+            }
+
+            .search {
+                display: block;
+            }
+
+            .video-author, .video-stats {
+
+                font-size: 12px;
+                font-weight: 400;
+                color: #606060;
+            }
+
+            .video-author {
+                margin-bottom: 4px;
+            }
+
+            .video-title {
+                margin-top: 0;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 30px;
+
+            }
+
+            .video-preview {
+                width:300px;
+                display: inline-block;
+                margin-right: 15px;
+                vertical-align: top;
+            }
+
+            .video-info-grid {
+                display: grid;
+                grid-template-columns: 50px 1fr;
+            }
+
+            .channel-picture {
+
+            }
+
+            .video-info {
+            }
+
+            .profile-picture {
+                width: 40px;
+                border-radius: 50%;
+            }
+
+            .thumbnail-row {
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body style="padding-bottom: 100px;">
+        <input class="search" type="text"  placeholder="Search">
+        
+        <div class="video-preview">
+            
+            <div class = "thumbnail-row">
+                <img class="thumbnail" src="thumbnails/hq720.webp">
+            </div>
+            
+            <div class ="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src = channel-pictures\coldfusion-smol.jpg>
+                </div>
+
+                <div class="video-info">
+                    <p class = "video-title">
+                        Why Gen Z is Struggling            
+                    </p>
+            
+                    <p class = "video-author">
+                        Coldfusion
+                    </p>
+            
+                    <p class = "video-stats">
+                        2.4 M views &#183 7 months ago
+                    </p>
+                </div>                
+            </div>
+        </div>
+
+        <div class="video-preview">
+            
+            <div class = "thumbnail-row">
+                <img class="thumbnail" src="thumbnails\hq720_custom_1.avif">
+            </div>
+            
+            <div class="video-info-grid">
+                <div class = "channel-picture">
+                <img class="profile-picture" src="channel-pictures/johnny-smol.jpg">
+                </div>
+
+
+                <div class = "video-info">
+                    <p class = "video-title">
+                    2025 McLaren Artura Spider - POV Drive         
+                    </p>
+        
+                    <p class = "video-author">
+                    Johnny POV
+                    </p>
+        
+                    <p class = "video-stats">
+                    3K views &#183 11 hours ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

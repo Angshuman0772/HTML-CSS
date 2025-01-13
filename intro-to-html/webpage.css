@@ -1,0 +1,46 @@
+    p {
+        font-family: Roboto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .Header {
+        font-weight: bold;
+        font-size: 18px; /* Added unit */
+        margin-bottom: 15px;
+    }
+
+    .Stats {
+        color: #606060;
+        font-size: 14px; /* Added unit */
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .mkbhd {
+        color: #606060;
+        font-size: 14px; /* Added unit */
+        margin-bottom: 15px;
+    }
+
+    .Paragraph {
+        color: #606060;
+        font-size: 14px; /* Added unit */
+        width: 480px;
+    }
+
+    .Footer {
+        color: white;
+        margin-top: 100px;
+        margin-bottom: 5px;
+        background-color: #e34140;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .span-example:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
