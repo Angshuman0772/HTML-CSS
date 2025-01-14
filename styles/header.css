@@ -20,8 +20,12 @@
 }
 
 .right-section {
-    background-color: lightblue;
-    width: 200px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
 }
 
 .hamburger {
@@ -40,21 +44,33 @@
 }
 
 .search-icon {
-    height: 20px;
+    height: 25px;
+    margin-top:3px;
 }
 
 .search-button {
-    height: 40px;
-    width: 60px;
+    height: 39px;
+    width: 65px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(211, 211, 211);
+    margin-left: -1px;
+    margin-right: 10px;
+    border-radius: 4px;
 }
 
 .mic-icon {
-    height: 20px;
+    height: 25px;
+    margin-top: 4px;
 }
 
 .mic-button {
     height: 40px;
     width: 40px;
+    border-radius: 50%;
+    border:none;
+    background-color: rgb(245, 245, 245)
 
 }
 
@@ -68,4 +84,21 @@
     border-color: rgb(211, 211, 211);
     border-radius: 4px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0px;
+}
+
+.upload-icon {
+    height: 25px;
+}
+
+.apps-icon {
+    height: 25px;
+}
+
+.notifications-icon {
+    height: 25px;
+}
+.current-user-icon {
+    height: 32px;
+    border-radius: 50%;
 }
