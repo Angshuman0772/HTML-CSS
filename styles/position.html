@@ -15,10 +15,13 @@
         top: 0px;
         height: 50px;
         left: 0px;
-        right: 0px;"> <! stretches element to meet left and right position conditions >
+        right: 0px;
+        z-index: 1;">
+        
         header
-    </div>
 
+    </div>
+    
     <div style="
         background-color:green;
         color: white;
@@ -27,7 +30,30 @@
         bottom: 0px;
         top: 50px;
         width: 72px;">
+        
         sidebar
+
+        <div style="
+            position: absolute;
+            background-color:red;
+            color: white;
+            top: 0px;
+            right: 0px;
+            ">
+            X
+        </div>
+        
+    </div>
+
+    <div style="
+        position: absolute;
+        background-color:red;
+        color: white;
+        top: 60px;
+        right: 10px;
+        z-index: 2;
+        ">
+        absolute
     </div>
 
     <div style="
@@ -41,8 +67,20 @@
     <div style="
         background-color:lightpink;
         height: 200px;
-        width: 200px;">
+        width: 200px;
+        position: relative;">
+        
         div 2
+            <div style="
+            position: absolute;
+            background-color:red;
+            color: white;
+            top: 60px;
+            right: 10px;
+            z-index: 2;
+            ">
+            absolute
+            </div>
     </div>
 
 </body>
