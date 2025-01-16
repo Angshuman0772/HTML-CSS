@@ -1,5 +1,4 @@
 p {
-    font-family: 'Roboto', sans-serif;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -7,7 +6,10 @@ p {
 body {
     margin:0;
     padding-top: 80px;
-    padding-left: 72px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(249, 249, 249);
+    font-family: Roboto, sans-serif;
 }
 
 .notification-container  {
@@ -23,7 +25,7 @@ body {
     font-size: 11px;
     font-family: Roboto;
     border-radius: 10px;
-    padding-left: 5px;
+    padding-left: 5px; /* padding is space inside the element */
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
